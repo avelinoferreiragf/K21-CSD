@@ -1,6 +1,6 @@
 package br.com.k21.ecommerce.control.test;
 
-import org.junit.Assert;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 import br.com.k21.ecommerce.control.CalculadoraDescontos;
@@ -19,7 +19,7 @@ public class CalculadoraDescontosTest {
 		double valorRetornadoAposCalculo = calculadoraDescontos.calcular(valorCompra);
 	
 		// Assert
-		Assert.assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
+		assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
 	}
 
 	@Test
@@ -33,7 +33,7 @@ public class CalculadoraDescontosTest {
 		double valorRetornadoAposCalculo = calculadoraDescontos.calcular(valorCompra);
 	
 		// Assert
-		Assert.assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0);
+		assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
 	}
 
 
@@ -48,7 +48,7 @@ public class CalculadoraDescontosTest {
 		double valorRetornadoAposCalculo = calculadoraDescontos.calcular(valorCompra);
 	
 		// Assert
-		Assert.assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0);
+		assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
 	}
 
 	@Test
@@ -62,7 +62,7 @@ public class CalculadoraDescontosTest {
 		double valorRetornadoAposCalculo = calculadoraDescontos.calcular(valorCompra);
 	
 		// Assert
-		Assert.assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
+		assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
 	}
 
 	@Test
@@ -76,7 +76,7 @@ public class CalculadoraDescontosTest {
 		double valorRetornadoAposCalculo = calculadoraDescontos.calcular(valorCompra);
 	
 		// Assert
-		Assert.assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0);
+		assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
 	}
 
 	@Test
@@ -90,7 +90,7 @@ public class CalculadoraDescontosTest {
 		double valorRetornadoAposCalculo = calculadoraDescontos.calcular(valorCompra);
 	
 		// Assert
-		Assert.assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
+		assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
 	}
 
 	@Test
@@ -104,6 +104,6 @@ public class CalculadoraDescontosTest {
 		double valorRetornadoAposCalculo = calculadoraDescontos.calcular(valorCompra);
 	
 		// Assert
-		Assert.assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
+		assertEquals(valorEsperadoAposCalculo, valorRetornadoAposCalculo, 0.001);
 	}
 }
