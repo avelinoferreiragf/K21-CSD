@@ -12,6 +12,9 @@ public class CalculadoraDescontos {
 
 
 	public double calcular(double valorCompra) {
+		if (valorCompra <= 0) {
+			return 0;
+		}
 		if (valorCompra >= LIMITE_MINIMO_DESCONTO_COMPRAS_GRANDES) {
 			return valorCompra * TAXA_DESCONTO_APLICADA_COMPRAS_GRANDES;
 		}
