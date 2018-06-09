@@ -15,6 +15,7 @@ dependencies {
 	testRuntime group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.2.0'
 	testCompile group: 'org.junit.platform', name: 'junit-platform-launcher', version: '1.2.0'
 	testCompile group: 'org.junit.platform', name: 'junit-platform-runner', version: '1.2.0'
+	testCompile group: 'net.saliman', name: 'gradle-cobertura-plugin', version: '2.5.4'
 }
 
 test {
