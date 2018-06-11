@@ -8,7 +8,7 @@ import br.com.k21.ecommerce.control.CalculadoraDescontos;
 public class CalculadoraDescontosTest {
 
 	@Test
-	public void naoDarDescontoParaValoresAbaixoDoLimiteMinimoDeDesconto() {
+	public void darDescontoDe5PorCentoAbaixoDe500Reais() {
 		// Arrange
 		CalculadoraDescontos calculadoraDescontos = new CalculadoraDescontos();
 		double valorCompra = 499.99;
