@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.classpath
+*.project
+E-Commerce/Java/.settings/org.eclipse.jdt.core.prefs
+/E-Commerce/Python/E-Commerce/E-Commerce/__pycache__
+/E-Commerce/Python/E-Commerce/E-Commerce.sln
+/E-Commerce/Python/E-Commerce/E-Commerce/E-Commerce.pyproj
+/E-Commerce/Python/E-Commerce/.vs/E-Commerce/v15
+/.vs
